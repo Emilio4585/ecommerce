@@ -1,21 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import './index.css';
-import App from './componentes/app/App';
-=======
-import './assets/css/index.css';
-import App from './App';
->>>>>>> origin/ramaGabo
+import Navbar from './componentes/navbar/navbar';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <header>
+      <Navbar />
+    </header>
   </React.StrictMode>,
   document.getElementById('root')
 );
